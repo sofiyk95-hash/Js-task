@@ -45,3 +45,9 @@ function lovefunc(flower1, flower2) {
     return false;
   }
 }
+// DNA to RNA Conversion
+function DNAtoRNA(dna) {
+ let rna = dna.replaceAll("T","U");
+  return rna;
+  
+}
