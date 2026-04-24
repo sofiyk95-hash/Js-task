@@ -51,3 +51,10 @@ function DNAtoRNA(dna) {
   return rna;
   
 }
+
+// Convert a string
+function stringToArray(string){
+return string.split(" ");
+
+
+}
